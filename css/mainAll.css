@@ -1,0 +1,61 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+
+body {
+    font-size: 17px;
+
+}
+
+article {
+    width: 50em;
+}
+
+h1 {
+
+}
+
+img {
+    max-width: 100%;
+
+}
+/*.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+   background: #dd4b39;
+  color: white;
+}
+
+.fa-digg{
+  background: #55ACEE;
+  color: white;
+}*/
+
+

@@ -1,0 +1,197 @@
+body{
+  position: absolute;
+  top:0;
+  display: flex;
+
+  }
+
+ img .logo {
+
+  src:"images_src/kushstar.png";
+}
+  /*url("images/kushstar-500_small.png");*/
+
+
+  * {
+    font-family: 'Lato', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  p{
+    padding: 15px;
+  }
+  header{
+    display: block;
+  }
+
+  .container {
+    display: block;
+    width: 100%;
+max-width: 1200px;
+
+  /*height: auto;
+  box-sizing: border-box;*/
+
+
+}
+
+.container-inner  {
+
+  display: -webkit-flex;
+  display: flex;
+
+
+}
+.title-text{
+  font-family: "Lato", sans-serif;
+  color: #BCBBBB;
+  text-align: right;
+  padding: 2px 5px 0px 0px;
+
+}
+
+.title-sub{
+  font-size: 1.3em;
+  font-family: 'Lato', sans-serif;
+  color: #747704;
+}
+
+#photos{
+  margin: 10px;
+  padding: 5px;
+  border-style: solid;
+}
+div img{
+  max-width: 100%;
+}
+/* adaptive*/
+* {
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+html {
+  font-family: "Lato", sans-serif;
+}
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+
+
+}
+
+
+
+@media only screen and (min-width: 500px)
+{
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+p{
+  font-size: 17px;
+}
+
+figcaption{
+  font-size: 12px;
+}
+
+}
+
+/*keep header one line*/
+
+
+@media only screen and (max-width: 760px)
+{
+
+.container-inner{
+  display: block;
+}
+
+}
+/*
+
+
+  */
+
+@media only screen  and (max-width: 500px)
+{
+
+
+ p{
+  font-size:17px;
+
+ }
+
+
+  .title-text .title-sub{
+
+    text-align: right;
+    font-size: 12px;
+
+  }
+
+}
+
+@media only screen and (min-width: 768px)
+{
+ #main-part {
+
+    width: 70%;
+  }
+
+  aside{
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(205, 179, 102);
+    width: 30%;
+  }
+}
+
+@media only screen  and (min-width: 960px)
+{
+  #main-part{
+
+    width: 70%;
+  }
+  aside {
+
+    width: 30%;
+  }
+  .container {
+width: 960px;
+
+    margin: auto;
+
+  }
+  article{
+    font-size: 20px;
+  }
+}
+
